@@ -11,7 +11,7 @@ permalink: /privacy/
 
 ## Summary
 
-Inkboard does not collect, sell or share any personal data. It has no accounts, no ads, no analytics and no crash reporting of its own, and it never sends your boards or drawings to the developer or to any third party. Everything you create stays on your device unless you choose to share it with your own devices on your local Wi-Fi. The only time the app contacts an internet service is when you agree to download Google's handwriting-recognition model, as described below.
+Inkboard does not collect, sell or share any personal data. It has no accounts, no ads, no analytics and no crash reporting of its own, and it never sends your boards or drawings to the developer or to any third party. Everything you create stays on your device unless you choose to share it with your own devices on your local Wi-Fi, or to save or send a file to a place or app you pick. The only time the app contacts an internet service is when you agree to download Google's handwriting-recognition model, as described below.
 
 ## Data the app handles
 
@@ -21,6 +21,7 @@ Inkboard does not collect, sell or share any personal data. It has no accounts, 
   - is not connected to any server of the developer or a third party: data travels directly between your phone and the browser on your network;
   - uses an unencrypted (HTTP) connection on your local network, as the app tells you before you share; only use it on networks you trust;
   - stops when you tap *Stop*, or after 15 minutes without any connected device.
+- **Export and files.** You can save a board as a `.inkboard` file or as a PNG image, and save extracted text as `.txt` or `.md`. The file goes only where you choose, through Android's file picker or share sheet, and Inkboard never uploads it. A `.inkboard` file opened from another app is read only to import it as a new board. Inkboard needs no file or storage permission for any of this.
 - **Handwriting recognition.** Turning handwriting into text, and searching your handwriting, use Google's **ML Kit** library, which recognises handwriting on your device. It first needs Google's English handwriting model, about 11 MB:
   - the model is downloaded from Google's servers (`dl.google.com`) only after you agree to it, the first time you convert ink or turn on handwriting search;
   - like any download, the request lets Google see your device's IP address, under [Google's privacy policy](https://policies.google.com/privacy); it carries none of your boards, ink or text;
