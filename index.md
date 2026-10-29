@@ -4,6 +4,6 @@ title: Inkboard
 
 # Inkboard
 
-Legal pages for the Inkboard Android app.
+The Inkboard website and privacy policy are now at [getinkboard.app](https://getinkboard.app/).
 
-- [Privacy policy](privacy/)
+- [Privacy policy](https://getinkboard.app/privacy/)
